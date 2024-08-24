@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { Head } from "@inertiajs/react";
 import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
-// import ScrollToTopButton from "../Components/ScrollToTopButton";
+import ScrollToTheButton from "../Components/ScrollToTopButton";
 
 import gsap from "gsap";
 
@@ -108,6 +108,8 @@ const Home = () => {
                     </nav>
                 </header>
 
+                {/* HOME / HERO */}
+
                 <Element name="home">
                     <section
                         id="home"
@@ -135,7 +137,10 @@ const Home = () => {
                                 We are a team of experienced professionals
                                 dedicated to delivering exceptional results.
                             </p>
+                            
                         </div>
+
+
                     </section>
                 </Element>
 
@@ -214,8 +219,9 @@ const Home = () => {
                             </form>
                         </div>
                     </section>
-                  {/* <ScrollToTopButton /> */}
 
+                    <ScrollToTheButton />
+                    {/* <ScrollToTopButton /> */}
                 </Element>
 
                 <footer className="bg-indigo-900 text-white py-6">
@@ -233,6 +239,4 @@ const Home = () => {
 
 export default Home;
 
-
 // TODO: add text typing animation
-
