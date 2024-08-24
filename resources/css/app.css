@@ -5,6 +5,54 @@
 /* Any custom styles can go here */
 /* Custom styles */
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+body {
+  font-family: 'Figtree', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Typing animation */
+.typing-animation,
+.typing-animation-delayed {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid #440381; /* Cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.typing-animation-delayed {
+  animation-delay: 3.5s; /* Start after the first animation ends */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #440381 }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .typing-animation,
+  .typing-animation-delayed {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+    letter-spacing: 0.1em; /* Tighter letter spacing */
+  }
+}
+
 :root {
     --indigo: #440381;
     --blue-violet: #8338ec;
