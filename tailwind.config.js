@@ -1,5 +1,5 @@
 // import defaultTheme from 'tailwindcss/defaultTheme';
-// import forms from '@tailwindcss/forms';
+import forms from '@tailwindcss/forms';
 
 // /** @type {import('tailwindcss').Config} */
 // export default {
@@ -20,6 +20,32 @@
 
 //     plugins: [forms],
 // };
+// module.exports = {
+//     content: [
+//       "./resources/**/*.blade.php",
+//       "./resources/**/*.js",
+//       "./resources/**/*.jsx",
+//     ],
+//     theme: {
+//       extend: {
+//         colors: {
+//           'indigo': {
+//             900: '#440381', // Your custom indigo
+//           },
+//           'blue': {
+//             300: '#51E5FF', // Your electric blue
+//             500: '#8338EC', // Your blue violet
+//             700: '#0056BF', // Your sapphire
+//           },
+//           'gray': {
+//             900: '#100B00', // Your smoky black
+//           },
+//         },
+//       },
+//     },
+//     plugins: [],
+//   }
+
 module.exports = {
     content: [
       "./resources/**/*.blade.php",
@@ -30,11 +56,11 @@ module.exports = {
       extend: {
         colors: {
           'indigo': {
+            300: '#8338EC', // Your blue violet
             900: '#440381', // Your custom indigo
           },
           'blue': {
             300: '#51E5FF', // Your electric blue
-            500: '#8338EC', // Your blue violet
             700: '#0056BF', // Your sapphire
           },
           'gray': {

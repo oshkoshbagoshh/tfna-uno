@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 /* Any custom styles can go here */
-
+/* Custom styles */
 
 :root {
     --indigo: #440381;
@@ -14,12 +14,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Figtree', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: var(--smoky-black);
     background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
 }
 
 header {
