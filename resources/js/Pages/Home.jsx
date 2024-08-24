@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { Head } from "@inertiajs/react";
 import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
+// import ScrollToTopButton from "../Components/ScrollToTopButton";
+
 import gsap from "gsap";
 
 const Home = () => {
@@ -212,6 +214,8 @@ const Home = () => {
                             </form>
                         </div>
                     </section>
+                  {/* <ScrollToTopButton /> */}
+
                 </Element>
 
                 <footer className="bg-indigo-900 text-white py-6">
