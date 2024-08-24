@@ -6,10 +6,11 @@ namespace App\Http\Controllers;
 use Inertia\Inertia;
 
 
+
 class ThreeFirstNamesController extends Controller
 {
     //
     public function index() {
-        return Inertia::render('ThreeFirstNames');
+        return Inertia::render('Home');
     }
 }

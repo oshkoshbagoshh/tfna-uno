@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+    --indigo: #440381;
+    --blue-violet: #8338EC;
+    --electric-blue: #51E5FF;
+    --sapphire: #0056BF;
+    --smoky-black: #100B00;
+  }
+
+body {
+ font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: var(--smoky-black);
+  background-color: #f4f4f4;
+}
+
+
