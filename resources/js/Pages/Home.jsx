@@ -3,7 +3,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { Head } from "@inertiajs/react";
 import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
 import ScrollToTheButton from "../Components/ScrollToTopButton";
-
+import ContactForm  from "@/Components/ContactForm";
 import gsap from "gsap";
 
 const Home = () => {
@@ -137,7 +137,7 @@ const Home = () => {
                                 We are a team of experienced professionals
                                 dedicated to delivering exceptional results.
                             </p>
-                            
+
                         </div>
 
 
@@ -189,7 +189,7 @@ const Home = () => {
                     </section>
                 </Element>
 
-                <Element name="contact">
+                {/* <Element name="contact">
                     <section id="contact" className="py-20 bg-white">
                         <div className="container mx-auto px-6">
                             <h2 className="text-3xl font-bold text-indigo-900 mb-8">
@@ -221,8 +221,19 @@ const Home = () => {
                     </section>
 
                     <ScrollToTheButton />
-                    {/* <ScrollToTopButton /> */}
-                </Element>
+
+                </Element> */}
+
+                {/* ContactForm */}
+
+                <section id="contact" className="py-20 bg-white">
+                <div className="container mx-auto px-6">
+                <ContactForm ></ContactForm>
+                </div>
+
+                </section>
+
+
 
                 <footer className="bg-indigo-900 text-white py-6">
                     <div className="container mx-auto px-6 text-center">
