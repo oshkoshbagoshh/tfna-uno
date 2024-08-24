@@ -1,18 +1,125 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Any custom styles can go here */
+
+
 :root {
     --indigo: #440381;
-    --blue-violet: #8338EC;
-    --electric-blue: #51E5FF;
-    --sapphire: #0056BF;
-    --smoky-black: #100B00;
-  }
-
-body {
- font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  color: var(--smoky-black);
-  background-color: #f4f4f4;
+    --blue-violet: #8338ec;
+    --electric-blue: #51e5ff;
+    --sapphire: #0056bf;
+    --smoky-black: #100b00;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--smoky-black);
+    background-color: #f4f4f4;
+}
 
+header {
+    background: var(--indigo);
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--electric-blue);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 6rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    margin-bottom: 1rem;
+    color: var(--sapphire);
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--blue-violet);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--indigo);
+    border-radius: 4px;
+}
+
+button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: var(--sapphire);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--blue-violet);
+}
+
+footer {
+    background: var(--indigo);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#home {
+    background-color: var(--electric-blue);
+    color: var(--smoky-black);
+}
+
+#about {
+    background-color: #fff;
+}
+
+#services {
+    background-color: var(--sapphire);
+    color: #fff;
+}
+
+#contact {
+    background-color: #fff;
+}
