@@ -4,6 +4,11 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\ThreeFirstNamesController;
+
+// Three First Names Route
+Route::get('/three-first-names', [ThreeFirstNamesController::class, 'index'])->name('three-first-names');
+
 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
