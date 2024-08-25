@@ -6,6 +6,7 @@ import ScrollToTheButton from "../Components/ScrollToTopButton";
 import ContactForm  from "@/Components/ContactForm";
 import gsap from "gsap";
 
+
 const Home = () => {
     const blob1Ref = useRef(null);
     const blob2Ref = useRef(null);
@@ -229,9 +230,16 @@ const Home = () => {
                 <section id="contact" className="py-20 bg-white">
                 <div className="container mx-auto px-6">
                 <ContactForm ></ContactForm>
+
+                {/* Form 2 */}
                 </div>
 
+
                 </section>
+
+
+
+
 
 
 
