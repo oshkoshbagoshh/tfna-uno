@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { Head } from "@inertiajs/react";
 import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
-import ScrollToTheButton from "../Components/ScrollToTopButton";
+// import ScrollToTheButton from "@Components/"
 import ContactForm  from "@/Components/ContactForm";
 import gsap from "gsap";
 
@@ -250,4 +250,4 @@ const Home = () => {
 
 export default Home;
 
-// TODO: add text typing animation
+
