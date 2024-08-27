@@ -3,9 +3,8 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { Head } from "@inertiajs/react";
 import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
 // import ScrollToTheButton from "@Components/"
-import ContactForm  from "@/Components/ContactForm";
+import ContactForm from "@/Components/ContactForm";
 import gsap from "gsap";
-
 
 const Home = () => {
     const blob1Ref = useRef(null);
@@ -138,10 +137,7 @@ const Home = () => {
                                 We are a team of experienced professionals
                                 dedicated to delivering exceptional results.
                             </p>
-
                         </div>
-
-
                     </section>
                 </Element>
 
@@ -228,20 +224,12 @@ const Home = () => {
                 {/* ContactForm */}
 
                 <section id="contact" className="py-20 bg-white">
-                <div className="container mx-auto px-6">
-                <ContactForm ></ContactForm>
+                    <div className="container mx-auto px-6">
+                        <ContactForm></ContactForm>
 
-                {/* Form 2 */}
-                </div>
-
-
+                        {/* Form 2 */}
+                    </div>
                 </section>
-
-
-
-
-
-
 
                 <footer className="bg-indigo-900 text-white py-6">
                     <div className="container mx-auto px-6 text-center">
@@ -257,5 +245,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
