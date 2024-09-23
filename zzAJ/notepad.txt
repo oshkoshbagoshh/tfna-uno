@@ -7,7 +7,7 @@
  * @Description: file:///Users/aj/Herd/tfna/zzAJ/notepad.txt
  */
 
-
+- hosting on hostinger
 - artistan
 - tinker
 - inertia
@@ -17,6 +17,7 @@
 - sqlite database
 - Insomnia
 - TODO: scroll to top button, text typing
+- MySQL
 
 - TODO: auth 
 - TODO: copy, logo , etc.
