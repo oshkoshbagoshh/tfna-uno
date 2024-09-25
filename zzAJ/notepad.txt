@@ -21,8 +21,9 @@
 - TODO: auth
 - TODO: copy, logo , etc.
 - TODO: pictures / assets
-- TODO: QA / testing
+- TODO: QA / testing (unit tests)
 - TODO: where does the form data go?
+    - study what WPForms, WP SMTP, etc. are doing
 - SQLITE first, then eventually postgres
 
 -TODO: modal cards
