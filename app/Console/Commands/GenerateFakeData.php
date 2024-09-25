@@ -25,7 +25,7 @@ class GenerateFakeData extends Command
         for ($i = 0; $i < $count; $i++) {
             $data['campaigns'][] = [
                 'id' => $faker->unique()->randomNumber(5),
-                'name' => $faker->catchPhrase,
+                'name' => $faker->catchPhrase(),
                 'client' => $faker->company,
                 'budget' => $faker->numberBetween(5000, 100000),
                 'start_date' => $faker->date(),

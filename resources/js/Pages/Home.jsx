@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from "react";
-import { Link as ScrollLink, Element } from "react-scroll";
-import { Head } from "@inertiajs/react";
-import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
+import React, {useEffect, useRef} from "react";
+import {Element, Link as ScrollLink} from "react-scroll";
+import {Head} from "@inertiajs/react";
+import {FaBalanceScale, FaChartLine, FaLightbulb} from "react-icons/fa";
 // import ScrollToTheButton from "@Components/"
-import ContactForm from "@/Components/ContactForm";
 import gsap from "gsap";
 import AboutMe from "@/Components/AboutMe.jsx";
 
@@ -201,7 +200,7 @@ const Home = () => {
 
 
 
-                {/* <Element name="contact">
+                {  <Element name="contact">
                     <section id="contact" className="py-20 bg-white">
                         <div className="container mx-auto px-6">
                             <h2 className="text-3xl font-bold text-indigo-900 mb-8">
@@ -234,17 +233,21 @@ const Home = () => {
 
                     <ScrollToTheButton />
 
-                </Element> */}
+                </Element>
+                }{}
+                {/*/!* ContactForm *!/*/}
 
-                {/* ContactForm */}
+                {/*<section id="contact" className="py-20 bg-white">*/}
+                {/*    <div className="container mx-auto px-6">*/}
+                {/*        <ContactForm></ContactForm>*/}
 
-                <section id="contact" className="py-20 bg-white">
-                    <div className="container mx-auto px-6">
-                        <ContactForm></ContactForm>
+                {/*        /!* Form 2 *!/*/}
+                {/*    </div>*/}
+                {/*</section>*/}
 
-                        {/* Form 2 */}
-                    </div>
-                </section>
+                //     TODO: INSERT CALENDLY FORM
+                    import ReactCalendlyForm from 'react-calendly';
+
 
                 <footer className="bg-indigo-900 text-white py-6">
                     <div className="container mx-auto px-6 text-center">
