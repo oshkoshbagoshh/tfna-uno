@@ -5,6 +5,7 @@ import { FaLightbulb, FaChartLine, FaBalanceScale } from "react-icons/fa";
 // import ScrollToTheButton from "@Components/"
 import ContactForm from "@/Components/ContactForm";
 import gsap from "gsap";
+import AboutMe from "@/Components/AboutMe.jsx";
 
 const Home = () => {
     const blob1Ref = useRef(null);
@@ -127,6 +128,7 @@ const Home = () => {
                     </section>
                 </Element>
 
+                {/* ABOUT ME SECTION */}
                 <Element name="about">
                     <section id="about" className="py-20 bg-white">
                         <div className="container mx-auto px-6">
@@ -140,6 +142,13 @@ const Home = () => {
                         </div>
                     </section>
                 </Element>
+
+                {/* return JSX Here*/}
+                <AboutMe />
+
+                {/*SERVICES */}
+
+
 
                 <Element name="services">
                     <section
@@ -185,6 +194,12 @@ const Home = () => {
                         </div>
                     </section>
                 </Element>
+
+
+                {/*TODO: FIX THE CONTACT SHEET */}
+
+
+
 
                 {/* <Element name="contact">
                     <section id="contact" className="py-20 bg-white">
