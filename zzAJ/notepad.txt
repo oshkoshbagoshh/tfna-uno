@@ -27,6 +27,11 @@
 - SQLITE first, then eventually postgres
 
 -TODO: modal cards
+-TODO: dark mode , high contrast mode, etc.
+- TODO: Set up linters / prettier for formatting
+- unit tests
+
+
 
 
 ----
