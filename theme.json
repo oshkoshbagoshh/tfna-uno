@@ -1,0 +1,17 @@
+{
+	"light": {
+		    "background": "#ffffff",
+		        "text": "#100B00",
+			    "primary": "#440381",
+			        "secondary": "#8338EC",
+				    "accent": "#51E5FF"
+				      },
+				        "dark": {
+						    "background": "#100B00",
+						        "text": "#ffffff",
+							    "primary": "#0056BF",
+							        "secondary": "#8338EC",
+								    "accent": "#51E5FF"
+								      }
+}
+
