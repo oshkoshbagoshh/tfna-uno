@@ -2,49 +2,7 @@
 
 - React and Laravel version of Nathan's site design.
 
-
-
-
-- hosting on hostinger
-- artistan
-- tinker
-- inertia
-- blade
-- tailwind
-- React
-- sqlite database
-- Insomnia
-- TODO: scroll to top button, text typing
-- MySQL
-
-- TODO: auth
-- TODO: copy, logo , etc.
-- TODO: pictures / assets
-- TODO: QA / testing
-- TODO: where does the form data go?
-- SQLITE first, then eventually postgres
-
--TODO: modal cards
--TOD0: color schema
--TODO: design / style guide
--TODO: calendly integration
--TODO: G drive / FTP
--TODO: asset integration
--TODO: Canva design
-
-
----
-
-
-
-
-
-
 ## Description
-
-----
-
-Thank you for sharing this package.json file. This configuration represents a modern React project using Vite as the build tool and including several popular libraries. Let's break down the key components:
 
 1. Project Configuration:
     - `"private": true`: This prevents accidental publication of your project as a package to npm.
@@ -80,4 +38,3 @@ Some observations and potential recommendations:
 
 5. If you're working with a team or planning to maintain code quality, you might want to add ESLint and Prettier to your devDependencies.
 
-Is there anything specific about this configuration you'd like me to explain further or any changes you're considering making to it?
